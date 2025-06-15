@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.block.ModBlocks;
 import com.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -23,5 +24,6 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }
