@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Harun1804/belajar-mod-minecraft.git"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tutorial-mod/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.example.TutorialModDataGenerator"
+		],
+		"client": [
+			"com.example.TutorialModClient"
 		]
 	},
 	"mixins": [
