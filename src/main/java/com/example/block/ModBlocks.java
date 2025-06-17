@@ -1,6 +1,7 @@
 package com.example.block;
 
 import com.example.TutorialMod;
+import com.example.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -44,6 +45,14 @@ public class ModBlocks {
             .requiresTool()
             .sounds(BlockSoundGroup.DEEPSLATE)
     ));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+        new MagicBlock(
+            AbstractBlock.Settings.create()
+                .strength(1f)
+                .requiresTool()
+            )
+    );
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
