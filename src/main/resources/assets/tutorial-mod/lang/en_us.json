@@ -17,5 +17,7 @@
   "tooltip.tutorial-mod.magic_block.tooltip": "This block has MAGIC",
   "tooltip.tutorial-mod.chisel.tooltip.shift": "Press Shift for more information",
   "tooltip.tutorial-mod.chisel.tooltip": "Use this chisel to shape blocks into various forms.",
-    "tooltip.tutorial-mod.cauliflower.tooltip": "A delicious vegetable, perfect for healthy meals."
+  "tooltip.tutorial-mod.cauliflower.tooltip": "A delicious vegetable, perfect for healthy meals.",
+
+  "tag.tutorial-mod.transformable_items": "Transformable Items"
 }
